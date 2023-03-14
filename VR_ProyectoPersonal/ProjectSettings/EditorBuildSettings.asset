@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NewPark/Scenes/NewPark_Environment.unity
+    path: Assets/Hall/Scenes/NewPark_Environment.unity
     guid: 9c6c64408153b9348a97169a07b0613e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5c1dfdbb86b38f0459532ccba5f7d08d,
