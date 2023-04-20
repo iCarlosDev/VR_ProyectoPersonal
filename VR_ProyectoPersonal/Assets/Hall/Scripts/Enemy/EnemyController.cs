@@ -6,19 +6,17 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
-    [SerializeField] private NavMeshAgent _navMeshAgent;
+    [SerializeField] private EnemyScriptStorage _enemyScriptStorage;
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
-        _navMeshAgent = GetComponent<NavMeshAgent>();
+        _enemyScriptStorage = GetComponent<EnemyScriptStorage>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        _navMeshAgent.SetDestination(GameObject.FindWithTag("Player").transform.position);
+        _enemyScriptStorage.NavMeshAgent.SetDestination(GameObject.FindWithTag("Player").transform.position);
     }
 
     // Update is called once per frame
@@ -29,6 +27,6 @@ public class EnemyController : MonoBehaviour
 
     private void AnimationControl()
     {
-        _animator.SetFloat("NavMeshVelocity", _navMeshAgent.velocity.magnitude);
+        _enemyScriptStorage.Animator.SetFloat("NavMeshVelocity", _enemyScriptStorage.NavMeshAgent.velocity.magnitude);
     }
 }
