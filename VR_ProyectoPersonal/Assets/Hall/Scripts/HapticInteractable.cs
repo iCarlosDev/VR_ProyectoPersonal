@@ -3,14 +3,15 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class HapticInteractable : MonoBehaviour
 {
-    [SerializeField]
-    XRBaseController controller;
+    [SerializeField] private XRBaseController controller;
+    [SerializeField] private float intensity;
+    [SerializeField] private float time;
 
     void SendHaptics()
     {
         if (controller != null)
         {
-            controller.SendHapticImpulse(0.7f, 0.1f);
+            controller.SendHapticImpulse(intensity, time);
         }
     }
 

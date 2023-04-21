@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 1
+  StimulatorAmount: 0.45
   Bones:
   - transform: {fileID: 7866640823346679439}
     Evaluation: 0
@@ -209,11 +209,11 @@ MonoBehaviour:
   GravityHeavyness: 2
   _editor_Title: ' Bones Stimulator'
   _editor_DrawSetup: 1
-  _editor_DrawTweaking: 0
+  _editor_DrawTweaking: 1
   _editor_DisplayedPreset: 0
   _editor_DrawGizmos: 1
   DrawGizmos: 1
-  _editor_SelCategory: 0
+  _editor_SelCategory: 3
   MovementMuscles: 1
   MusclesRapidity: 0.6
   Damping: 0.4
@@ -251,7 +251,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MusclesSimulationSpeed: 1
-  VibrateAmount: 0
+  VibrateAmount: 0.01
   VibrateSpeed: 6
   VibrateRange: 2.5
   VibrateAxis: {x: 1, y: 1, z: 1}
@@ -336,7 +336,7 @@ MonoBehaviour:
   SqueezingSpeed: 15
   SqueezingMultiply: 0.5
   SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
-  UseCollisions: 1
+  UseCollisions: 0
   MovementMusclesCollision: 1
   CollidersScaleCurve:
     serializedVersion: 2
@@ -365,7 +365,8 @@ MonoBehaviour:
   CollidersScaleMul: 0.1
   OffsetAllColliders: {x: 0, y: 0, z: 0}
   DetailedCollision: 1
-  IncludedColliders: []
+  IncludedColliders:
+  - {fileID: 1495517755}
   BlendXAxis: 1
   BlendYAxis: 1
   BlendZAxis: 1
@@ -802,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 1
+  StimulatorAmount: 0.45
   Bones:
   - transform: {fileID: 4091261984887568289}
     Evaluation: 0
@@ -930,7 +931,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MusclesSimulationSpeed: 1
-  VibrateAmount: 0
+  VibrateAmount: 0.01
   VibrateSpeed: 6
   VibrateRange: 2.5
   VibrateAxis: {x: 1, y: 1, z: 1}
@@ -1015,7 +1016,7 @@ MonoBehaviour:
   SqueezingSpeed: 15
   SqueezingMultiply: 0.5
   SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
-  UseCollisions: 1
+  UseCollisions: 0
   MovementMusclesCollision: 1
   CollidersScaleCurve:
     serializedVersion: 2
@@ -1044,7 +1045,9 @@ MonoBehaviour:
   CollidersScaleMul: 0.1
   OffsetAllColliders: {x: 0, y: 0, z: 0}
   DetailedCollision: 1
-  IncludedColliders: []
+  IncludedColliders:
+  - {fileID: 2140472190}
+  - {fileID: 293698144}
   BlendXAxis: 1
   BlendYAxis: 1
   BlendZAxis: 1
@@ -1665,7 +1668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 1
+  StimulatorAmount: 0.45
   Bones:
   - transform: {fileID: 8871491390574896129}
     Evaluation: 0
@@ -1769,11 +1772,11 @@ MonoBehaviour:
   GravityHeavyness: 2
   _editor_Title: ' Bones Stimulator'
   _editor_DrawSetup: 1
-  _editor_DrawTweaking: 0
+  _editor_DrawTweaking: 1
   _editor_DisplayedPreset: 0
   _editor_DrawGizmos: 1
   DrawGizmos: 1
-  _editor_SelCategory: 0
+  _editor_SelCategory: 3
   MovementMuscles: 1
   MusclesRapidity: 0.6
   Damping: 0.4
@@ -1811,7 +1814,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MusclesSimulationSpeed: 1
-  VibrateAmount: 0
+  VibrateAmount: 0.01
   VibrateSpeed: 6
   VibrateRange: 2.5
   VibrateAxis: {x: 1, y: 1, z: 1}
@@ -1896,7 +1899,7 @@ MonoBehaviour:
   SqueezingSpeed: 15
   SqueezingMultiply: 0.5
   SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
-  UseCollisions: 1
+  UseCollisions: 0
   MovementMusclesCollision: 1
   CollidersScaleCurve:
     serializedVersion: 2
@@ -3484,7 +3487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 1
+  StimulatorAmount: 0.45
   Bones:
   - transform: {fileID: 9075392864253846447}
     Evaluation: 0
@@ -3630,7 +3633,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MusclesSimulationSpeed: 1
-  VibrateAmount: 0
+  VibrateAmount: 0.01
   VibrateSpeed: 6
   VibrateRange: 2.5
   VibrateAxis: {x: 1, y: 1, z: 1}
@@ -3715,7 +3718,7 @@ MonoBehaviour:
   SqueezingSpeed: 15
   SqueezingMultiply: 0.5
   SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
-  UseCollisions: 1
+  UseCollisions: 0
   MovementMusclesCollision: 1
   CollidersScaleCurve:
     serializedVersion: 2
@@ -3856,7 +3859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 1
+  StimulatorAmount: 0.45
   Bones:
   - transform: {fileID: 2272446779357847812}
     Evaluation: 0
@@ -3984,7 +3987,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MusclesSimulationSpeed: 1
-  VibrateAmount: 0
+  VibrateAmount: 0.01
   VibrateSpeed: 6
   VibrateRange: 2.5
   VibrateAxis: {x: 1, y: 1, z: 1}
@@ -4069,7 +4072,7 @@ MonoBehaviour:
   SqueezingSpeed: 15
   SqueezingMultiply: 0.5
   SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
-  UseCollisions: 1
+  UseCollisions: 0
   MovementMusclesCollision: 1
   CollidersScaleCurve:
     serializedVersion: 2
@@ -4098,7 +4101,9 @@ MonoBehaviour:
   CollidersScaleMul: 0.1
   OffsetAllColliders: {x: 0, y: 0, z: 0}
   DetailedCollision: 1
-  IncludedColliders: []
+  IncludedColliders:
+  - {fileID: 338914605}
+  - {fileID: 1139415243}
   BlendXAxis: 1
   BlendYAxis: 1
   BlendZAxis: 1
@@ -4644,7 +4649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17d77db75be5b64e891e6cd25906ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StimulatorAmount: 1
+  StimulatorAmount: 0.45
   Bones:
   - transform: {fileID: 8415461646220713293}
     Evaluation: 0
@@ -4712,11 +4717,11 @@ MonoBehaviour:
   GravityHeavyness: 2
   _editor_Title: ' Bones Stimulator'
   _editor_DrawSetup: 1
-  _editor_DrawTweaking: 0
+  _editor_DrawTweaking: 1
   _editor_DisplayedPreset: 0
   _editor_DrawGizmos: 1
   DrawGizmos: 1
-  _editor_SelCategory: 0
+  _editor_SelCategory: 3
   MovementMuscles: 1
   MusclesRapidity: 0.6
   Damping: 0.4
@@ -4754,7 +4759,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MusclesSimulationSpeed: 1
-  VibrateAmount: 0
+  VibrateAmount: 0.01
   VibrateSpeed: 6
   VibrateRange: 2.5
   VibrateAxis: {x: 1, y: 1, z: 1}
@@ -4839,7 +4844,7 @@ MonoBehaviour:
   SqueezingSpeed: 15
   SqueezingMultiply: 0.5
   SqueezingAxis: {x: 0.2, y: 0.15, z: 0.2}
-  UseCollisions: 1
+  UseCollisions: 0
   MovementMusclesCollision: 1
   CollidersScaleCurve:
     serializedVersion: 2
@@ -4868,7 +4873,8 @@ MonoBehaviour:
   CollidersScaleMul: 0.1
   OffsetAllColliders: {x: 0, y: 0, z: 0}
   DetailedCollision: 1
-  IncludedColliders: []
+  IncludedColliders:
+  - {fileID: 1170430233}
   BlendXAxis: 1
   BlendYAxis: 1
   BlendZAxis: 1

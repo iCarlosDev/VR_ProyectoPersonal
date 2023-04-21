@@ -18,7 +18,7 @@ public class EnemyColliderDetector : MonoBehaviour
         if (collision.collider.CompareTag("Weapon"))
         {
             Debug.Log(collision.relativeVelocity.magnitude);
-            if (collision.relativeVelocity.magnitude > 10f)
+            if (collision.relativeVelocity.magnitude > 7f)
             {
                 _enemyScriptStorage.EnemyHealth.Die();   
             }
